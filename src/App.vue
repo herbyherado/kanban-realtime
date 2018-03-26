@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
     <router-view/>
   </div>
 </template>
@@ -13,11 +12,17 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  /* min-height: 100% */
+  /* overflow-x: scroll; */
+}
+body {
+  /* background-image: url('assets/Gradient-Backgrounds.jpg') !important; */
+  top: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #102131;
+  /* overflow-x: scroll; */
 }
 </style>
