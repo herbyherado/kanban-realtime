@@ -21,8 +21,6 @@ body {
   margin: 0;
   width: 100%;
   height: 100%;
-  position: fixed;
   background: #102131;
-  /* overflow-x: scroll; */
 }
 </style>
